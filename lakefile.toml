@@ -1,0 +1,10 @@
+name = "HighSchoolMath"
+version = "0.1.0"
+defaultTargets = ["highschoolmath"]
+
+[[lean_lib]]
+name = "HighSchoolMath"
+
+[[lean_exe]]
+name = "highschoolmath"
+root = "Main"
